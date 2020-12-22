@@ -5,9 +5,8 @@ You need to download the [AOLP](http://aolpr.ntust.edu.tw/lab/) datasets.
 
 Your directory tree should be look like this:
 ````bash
-.
 ├── dataset
-├   └── AOLP
+│   └── AOLP
 │       ├── AC
 │       │   ├── char
 │       │   └── image
@@ -36,7 +35,6 @@ For example, test our proposed method on AOLP RP subset:
 CUDA_VISIBLE_DEVICES=0 python test.py --backbone "resnet101" --dataset "RP" --weightfile "path to the weight"
 ````
 
-Testing on the Medialab dataset should follow the above procedure similarly.
 
 ### Performance on the AOLP dataset
 | Method | AC | LE | RP | FPS |

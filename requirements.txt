@@ -1,0 +1,5 @@
+torch==0.4.0
+numpy==1.14.3
+torchvision==0.2.1
+opencv_contrib_python==3.4.1
+argparse==1.1
